@@ -11,3 +11,6 @@ script:
   - cd grpcServer
   - make build
   - make push
+  - cd ../tcpServer
+  - make build
+  - make push
