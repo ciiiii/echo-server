@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package grpcServer;
+
+message Empty {
+
+}
+
+message Content {
+    string text = 1;
+}
+
+service Echo {
+    rpc Ping(Empty) returns (Content) {}
+}
