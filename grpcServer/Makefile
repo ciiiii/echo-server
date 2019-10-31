@@ -9,4 +9,4 @@ ping:
 build:
 	@docker build -t killercai/grpc-echo:$(version) .
 push:
-	@dockr push killercai/grpc-echo:$(version)
+	@docker push killercai/grpc-echo:$(version)
